@@ -1,0 +1,703 @@
+body {
+  margin: 0;
+  padding-top: 105px;
+}
+.header {
+  position: relative;
+  background-color: rgb(114, 96, 96);
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.logo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.bm {
+  font-size: 30px;
+}
+.nav-scroll {
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+}
+.navbutton {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(202, 140, 140);
+  transition: 350ms;
+  transition-property: all;
+  cursor: pointer;
+}
+.navbutton:hover {
+  color: rgb(212, 212, 212);
+  text-decoration: underline;
+  font-size: 25px;
+}
+.navbar-button {
+  flex: 1;
+  display: none;
+  justify-content: end;
+  align-items: center;
+}
+.navbar-img {
+  height: 50px;
+  width: 50px;
+}
+.navbar-img:hover {
+  cursor: pointer;
+}
+.navbutton {
+  padding: 0;
+  height: 50px;
+}
+.when-click {
+  display: none;
+  margin-top: -20px;
+}
+.but2 {
+  display: none;
+}
+
+/* --------home section ---------*/
+
+.homes {
+  display: flex;
+  flex-direction: row;
+  row-gap: 20px;
+}
+/*--------picture section------------*/
+.left {
+  flex: 2;
+}
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  
+}
+.school {
+  height: 200px;
+  width: 100%;
+}
+
+/*--------search section-------------*/
+.label,
+.search-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.search-name {
+  flex: 3;
+  font-size: 20px;
+  padding: 10px;
+}
+.search-year {
+  flex: 2;  
+  font-size: 20px;
+  padding: 10px;
+}
+.search-button {
+  flex: 1;
+  font-size: 18px;
+  margin-left: 10px;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 250ms;
+}
+
+/*-------laber section---------*/
+.label {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 100px;
+}
+.name {
+  flex: 3;
+  text-align: center;
+  border-style: solid;
+}
+.year {
+  flex: 2;
+  text-align: center;
+  border-left: 0;
+  border-style: solid;
+}
+.link {
+  flex: 1;
+  text-align: center;
+  border-left: 0;
+  border-style: solid;
+}
+
+/*----------result-------------------------*/
+.result {
+  height: 600px;
+  overflow-y: scroll;
+  margin-left: 50px;
+  margin-right: 82px;
+}
+.second {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px;
+  border-style: solid;  
+}
+.third1 {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+}
+.third2 {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+.visit-button {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.thebutton {
+  font-size: 25px;
+  width: 152px;
+  cursor: pointer;
+  border: none;
+}
+/*-------------Templates-----------------------*/
+
+.template-section {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+}
+.template {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 600px;
+}
+.sample-link {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+.sample {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sample-img {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.meaning {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+/*-----------Service Section-----------------------------*/
+.service-head {
+  text-align: center;
+  font-size: 50px;
+}
+.service-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.service-pic {
+  height: 170px;
+  border-radius: 20px;
+}
+.service-name {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.service-text {
+  font-size: 15px;
+
+}
+.service-section2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+  height: 200px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.call {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+/*--------------Contact Section-------------------------*/
+.contact {
+  text-align: center;
+  font-size: 50px;
+}
+.contact-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.reach {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  margin-left: 100px;
+}
+.contact-title {
+  font-size: 40px;
+}
+.contact-icon {
+  height: 30px;
+  width: 30px;
+}
+.information {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+
+}
+.pics {
+  flex: 1;
+}
+.my-pic {
+  height: 400px;
+  border-radius: 50px;
+}
+.media-images {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+.my-contact-2 {
+  height: 300px;
+  border-radius: 50%;
+}
+.media-icon-head {
+  display: flex;
+  flex-direction: row;
+}
+.media-icon {
+  height: 30px;
+}
+.form-head {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.title-form {
+  font-size: 25px;
+  font-weight: bold;
+}
+.message {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+}
+.name-input {
+  height: 20px;
+  width: 400px;
+  border-radius: 5px;
+  border: 1px;
+  border-style: solid;
+  
+}
+.the-message {
+  padding-bottom: 100px;
+  width: 400px;
+  border-radius: 5px;
+  
+}
+.send-button {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(114, 96, 96);
+  border: 0;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+/*--------About Section----------------------------*/
+.about {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+}
+.about-section {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 20px;
+}
+.about-head {
+  flex: 1;
+  font-size: 25px;
+  display: flex;
+  align-items: start;
+  text-align: center;
+  font-weight: bold;
+
+}
+.img-about1 {
+  flex: 1;
+}
+.about-pic1 {
+  height: 300px;
+  width: 100%;
+}
+.about-pic2 {
+  height: 500px;
+  width: 100%;
+}
+.about-head2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.head2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.p2 {
+  font-size: 25px;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/*> > > > > > > > Responsive < < < < < <  < < < < < < */
+
+ @media screen and (max-width: 500px) {
+  
+  /*------Header responsive-------------*/
+
+  .header {
+    height: 40px;
+  } 
+  .navbar-img {
+    height: 30px;
+    width: 30px;
+  }
+  .nav-scroll {
+    display: none;
+  }
+  .navbar-button {
+    display: flex;
+  }
+  .when-click {
+    height: 100px;
+    width: 100%;
+    background-color:black;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    margin-top: 5px;
+  }
+  .navbar-img {
+    margin-right: 5px;
+  }
+  .but2 {
+    display: flex;
+  }
+  body {
+    padding-top: 35px;
+  }
+  .navbutton {
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(255, 246, 246);
+  }
+
+  /*----------------home section--------------------*/
+  .homes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .lefts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .search-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 20px;
+    margin-top: 10px;
+    border-style: solid;
+    border: 1px;
+  }
+  .search-name {
+    font-size: 10px;
+    padding: 1px;
+    height: 16px;
+    width: 120px;
+  }
+  .search-year {
+    font-size: 10px;
+    padding: 1px;
+    height: 16px;
+    width: 100px;
+  }
+  
+  .search-button {
+    font-size: 10px;
+    padding: 1px;
+    height: 22px;
+    margin-left: 5px;
+  }
+  .label {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 100%;
+  }
+  .name {
+    width: 40%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 12px;
+  }
+  .year {
+    width: 30%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 12px;
+  }
+  .link {
+    width: 20%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 12px;
+  }
+  .result {
+    width: 100%;
+    height: 250px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+  }
+  .second {
+    width: 99%;
+  }
+  .third1 {
+    width: 40%;
+    font-size: 12px;
+  }
+  .third2 {
+    width: 30%;
+    font-size: 12px;
+  }
+  .thebutton {
+    width: 100%;
+    font-size: 12px;
+  }
+  
+  .right {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 15px; 
+    margin-right: 10px;
+
+  }
+  .school {
+    height: 100px;
+    width: 100%;
+
+  }
+  /*--------Template Section-------------------------*/
+  .template-section {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  .sample-link {
+    font-size: 10px;
+  }
+  .explain {
+    font-size: 5px;
+  }
+  /*-----------SERvice Section--------------------------*/
+  .service-head {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  .service-section {
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+  .phone-service {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .service-pic {
+    height: 80px;
+  }
+  .service-name {
+    font-size: 12px;
+  }
+  .service-text {
+    text-align: center;
+    font-size: 10px;
+    width: 70%;
+  }
+  .service-section2 {
+    gap: 0;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } 
+  .call {
+    height: 100px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  /*--------Contact-Section------------*/
+  .contact {
+    font-size: 30px;
+  }
+  .reach {
+    gap: 10px;
+    margin-left: 20px;
+    font-size: 10px;
+  }
+  .contact-title {
+    font-size: 15px;
+  }
+  .contact-icon {
+    height: 10px;
+    width: 10px;
+  }
+  .my-pic {
+    height: 150px;
+    border-radius: 10px;
+  }
+  .contact-form {
+    margin-left: 15px;
+  }
+  .my-contact-2 {
+    height: 120px;
+  }
+  .media-icon {
+    height: 20px;
+  }
+  .title-form {
+    font-size: 15px;
+  }
+  .name-input {
+    height: 10px;
+    width: 85%;
+    font-size: 12px;
+    padding: 5px;
+  }
+  .the-message {
+    padding-bottom: 40px;
+    width: 88%;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .send-button {
+    width: 25%;
+    height: 15px;
+    font-size: 10px;
+    margin-top: 0;
+  }
+  /*----------about section----------*/
+  .about {
+    font-size: 30px;
+  }
+  .about-section {
+    gap: 5px;
+  }
+  .about-head {
+    font-size: 7px;
+  }
+  .about-pic1 {
+    height: 100px;
+    width: 99%;
+  }
+  .about-head2 {
+    gap: 5px;
+    padding-bottom: 20px;
+  }
+  .about-pic2 {
+    height: 150px;
+    width: 99%;
+  }
+  .p2 {
+    font-size: 7px;
+  }
+ }
+
+ 

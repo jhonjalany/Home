@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BatchMate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <div class="logo"><span class="bm">Batch</span>mate</div>
+    <div class="nav-scroll">
+      <div class="navbutton" onclick="gotop()">Home</div>
+      <a href="#template" class="navbutton">Template</a>
+      <a href="#service" class="navbutton">Service</a>
+      <a href="#contact" class="navbutton">Contact</a>
+      <a href="#about" class="navbutton">About</a>
+    </div>
+    <div onclick="responsive()" class="navbar-button">
+      <img class="navbar-img" src="navbar.jpg" alt="navbar">
+      <div>
+      </div>
+    </div>
+  </div>
+  <div class="when-click">
+    <a onclick="responsive()" href="#home" class="navbutton but2">Home</a>
+    <a onclick="responsive()" href="#template" class="navbutton but2">Template</a>
+    <a onclick="responsive()" href="#service" class="navbutton but2">Service</a>
+    <a onclick="responsive()" href="#contact" class="navbutton but2">Contact</a>
+    <a onclick="responsive()" href="#about" class="navbutton but2">About</a>
+  </div>
+  <!-------home section-->
+  
+  <div id="home" class="homes">
+    <div class="lefts">
+      <div class="search-section">
+        <input placeholder="Name of School" class="search-name">
+        <input placeholder="Year Ex. 2001-2002" class="search-year">
+        <button onclick="
+          let names = document.querySelector('.search-name').value;
+          const years = document.querySelector('.search-year').value;
+          names = names.toUpperCase();
+          search(names,years);
+        " class="search-button">Search</button>
+      </div>
+      <div class="label">
+        <div class="name">Name of School</div>
+        <div class="year">Batch Year</div>
+        <div class="link">Link</div>
+      </div>
+      <div class="result">
+        <div class="js-name-list search-result"></div>
+        <div class="js-nonSearch search-result"></div>
+      </div>
+    </div>
+    <div class="right">
+      <div><img src="anhs.jpg" alt="anhs" class="school"></div>
+      <div><img src="aa.png" alt="nda" class="school"></div>
+      <div><img src="acc.jpg" alt="acc" class="school"></div>
+      <img src="nda.jpg" alt="aa" class="school">
+    </div>
+  </div>
+  <!--------------Templates-------------------------->
+  <div id="template">
+    <p class="template-section">Templates</p>
+  </div>
+  <div class="template">
+    <div class="sample">
+      <div class="sample-link">
+      <a href="https://jhonjalany.github.io/Round-type/">View here</a>
+      </div>
+      <div><img class="sample-img" src="template-1.png" alt="temp1"></div>
+      <div class="meaning">
+        The circular shape of the picture is primarily an aesthetic choice for a yearbook.
+      </div>
+    </div>
+    <div class="sample">
+      <div class="sample-link">
+        <a href="https://jhonjalany.github.io/Square-type/">View here</a>
+      </div>
+      <div>
+        <img class="sample-img" src="template-2.png" alt="temp2">
+      </div>
+      <div class="meaning">
+        The box Type shape of picture is the common shape that usually use of many schools.
+      </div>
+    </div>
+  </div>
+  <!----------Services----------------------------->
+  <p id="service" class="service-head">Services</p>
+  <div class="service-section">
+    <div class="phone-service">
+      <div>
+        <img class="service-pic" src="yearbook.jpg" alt="online-yb">
+      </div>
+      <div class="service-name">
+        Online Yearbook
+      </div>
+      <div class="service-text">
+        A yearbook that last forever is like a family that live together.
+      </div>
+    </div>
+    <div class="phone-service">
+      <div>
+        <img class="service-pic" src="web-developer.jpg" alt="web-develop">
+      </div>
+      <div class="service-name">
+        Web-Development
+      </div>
+      <div class="service-text">
+        Need a website to promote your product or service?
+      </div>
+    </div>
+  </div>
+  <div class="service-section2">
+    <div class="phone-service">
+      <div>
+        <img class="service-pic" src="photographer.jpg" alt="photo">
+      </div>
+      <div class="service-name">
+        photography
+      </div>
+      <div class="service-text">
+        Looking for a perfect shot?
+      </div>
+    </div>
+    <div class="phone-service">
+      <div>
+        <img class="service-pic" src="video-edit.jpg" alt="edit">
+      </div>
+      <div class="service-name">
+        Video Editing
+      </div>
+      <div class="service-text">
+        High-quality video editing?
+        your in the rigth place.
+      </div>
+    </div>
+  </div>
+  <div class="call">
+    <div>
+      <img class="service-pic" src="call.jpg" alt="call">
+    </div>
+    <div class="service-name">
+      Call us any time
+    </div>
+  </div>
+  <!--------Contact----------------------------->
+  <p id="contact" class="contact">Contact</p>
+  <div class="contact-section"> 
+    <div class="reach">
+      <div class="contact-title">
+        Reach us Here:
+      </div>
+      <div class="information">
+        <div>
+          <img class="contact-icon" src="call-icon.png" alt="call">
+        </div>
+        <div>
+          09518520047
+        </div>
+      </div>
+      <div class="information">
+        <div>
+          <img class="contact-icon" src="Gmail_Icon.png" alt="gmail">
+        </div>
+        <div>
+          jhondumanhog@gmail.com
+        </div>
+      </div>
+      <div class="information">
+        <div>
+          <img class="contact-icon" src="location-icon.png" alt="location">
+        </div>
+        <div>
+          Abuyog, Leyte
+        </div>
+      </div>
+    </div>
+    <div class="pics">
+      <img class="my-pic" src="my_contact.jpg" alt="mypic">
+    </div>
+  </div>
+  <div class="contact-form">
+    <div class="media-images">
+      <img class="my-contact-2" src="my-contact2.jpg" alt="second-con">
+      <div class="media-icon-head">
+        <div>
+          <a href="https://www.facebook.com/jhon.dumanhog.7/photos"><img class="media-icon" src="fb-image.png" alt="fb"></a>
+        </div>
+        <div>
+          <a href="https://www.linkedin.com/in/jhon-dumanhog-aa2b48264/"><img class="media-icon" src="linkedin.webp" alt="linkin"></a>
+        </div>
+        <div>
+          <a href="https://www.upwork.com/freelancers/~016934a855eac11ab9?viewMode=1"><img class="media-icon" src="upwork.png" alt="upwork"></a>
+        </div>
+      </div>
+    </div>
+    <div class="form-head">
+      <div class="title-form">
+        Contact Form:
+      </div>
+      <form class="message" action="https://formsubmit.co/jhondumanhog@gmail.com" method="POST" >
+        <input class="name-input" type="text" name="name" placeholder="Name" required>
+        <input class="name-input" type="email" name="email" placeholder="Email" required>
+        <textarea class="the-message" type="text" name="Message" placeholder="Message..." required></textarea>
+        <button class="send-button" type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+  <!----------------ABOUT---------------------------------->
+  <div id="about">
+    <p class="about">About</p>
+  </div>
+  <div class="about-section">
+    <div class="about-head">
+      Welcome to Batchmate, your one-stop-shop for all your digital media needs! We are a team of dedicated professionals who specialize in providing high-quality online yearbook-making, web development, photography, and video editing services.
+    </div>
+    <div class="img-about1">
+      <img class="about-pic1" src="about-pic.jpg" alt="aboutpic1">
+    </div>
+  </div>
+  <div class="about-head2">
+    <div class="img-about1">
+      <img class="about-pic2" src="about-pic2.jpg" alt="">
+    </div>
+    <div class="head2">
+      <div class="p2">
+        Our online yearbook-making service is perfect for schools, colleges, and universities looking to create a unique and memorable yearbook for their students. 
+      </div>
+      <div class="p2">
+        In addition to our yearbook-making service, we also offer top-notch web development services for businesses and individuals looking to create a stunning online presence.
+      </div>
+      <div class="p2">
+        We also provide high-quality photography services for events, weddings, and businesses.
+      </div>
+      <div class="p2">
+        Last but not least, we offer professional video editing services for individuals and businesses looking to create engaging and compelling video content.
+      </div>
+      <div class="p2">
+        At Batchmate, we pride ourselves on providing exceptional customer service, top-quality work, and affordable prices. Contact us today to learn more about how we can help bring your digital media projects to life!
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
